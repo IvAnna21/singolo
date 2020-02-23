@@ -1,0 +1,51 @@
+body {
+    width: 1020px;
+    margin: 0 auto;
+    font-family: 'Lato', serif;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.services-flex-container .child {
+    width: 340px;
+    height: 123px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 38px;
+}
+
+.services-flex-container .child .float-left {
+    width: 60px;
+    padding: 0 10px;
+}
+
+.services-flex-container .child .float-right {
+    width: 220px;
+    padding: 0 10px;
+}
+
+.services-flex-container .child .float-right h2 {
+    margin-block-start: 0;
+    margin-block-end: 20px;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.services-flex-container .child .float-right p {
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.services-flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
