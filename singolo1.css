@@ -4,6 +4,61 @@ body {
     font-family: 'Lato', serif;
 }
 
+header {
+    font-weight: 700;
+}
+
+header h1 {
+    line-height: 89px;
+    padding-left: 40px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+header h1 .red {
+    color: #f06c64;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    height: 89px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+header ul li {
+    color: #494e62;
+}
+
+header ul li a {
+    display: block;
+    color: #ffffff;
+    padding-left: 17px;
+    padding-right: 17px;
+    text-decoration: none;
+}
+
+header ul li a.last {
+    padding-right: 13px;
+}
+
+header ul li a:hover {
+    color: #111111;
+}
+
+header ul li a.active {
+    color: #f06c64;
+}
+
 .float-left {
     float: left;
 }
@@ -11,20 +66,87 @@ body {
 .float-right {
     float: right;
 }
+
+.slider {
+    background-color: #ef6c64;
+    height: 600px;
+}
+
+.slider-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+.sliders {
+    width: 112px;
+}
+
+.slider-left {
+    padding-left: 42px;
+}
+
+.slider-right {
+    padding-right: 40px;
+    float: right;
+}
+
+.slider-content {
+    width: 796px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+header {
+    background-color: #2d2f39;
+    height: 95px;
+}
+
 .img-vertphone {
     margin-top: 53px;
 }
-.services {padding-top: 66px;}
-.services h1 {font-size: 30px;
+
+.slider-bottom-line {
+    height: 6px;
+    background-color: #ea666b;
+    clear: bottom;
+}
+
+.header-bottom-line {
+    height: 6px;
+    background-color: #323645;
+    clear: both;
+}
+
+.services-bottom-line {
+    height: 6px;
+    background-color: #ffffff;
+}
+
+.services {
+    padding-top: 66px;
+    background-color: #f1f1f1;
+}
+
+.services h1 {
+    font-size: 30px;
     font-weight: 900;
-margin-block-start: 0;
-margin-block-end: 0;
-padding-bottom: 16px;}
-.services p {font-size: 18px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-bottom: 16px;
+}
+
+.services p {
+    font-size: 18px;
     font-weight: 300;
     margin-block-start: 0;
     margin-block-end: 0;
-line-height: 32px;}
+    line-height: 32px;
+}
+
 .services-flex-container .child {
     width: 340px;
     height: 123px;
@@ -57,6 +179,7 @@ line-height: 32px;}
 }
 
 .services-flex-container {
+    margin-top: 54px;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
